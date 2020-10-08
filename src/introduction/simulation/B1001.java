@@ -1,10 +1,5 @@
 package introduction.simulation;
 
-/**
- * @author AKA二夕
- * @create 2020-10-08 21:33
- */
-
 import java.util.Scanner;
 
 /**
