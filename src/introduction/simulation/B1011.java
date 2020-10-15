@@ -27,14 +27,17 @@ import java.util.Scanner;
 public class B1011 {
     public static void main(String[] args) {
         Solution solution = new Solution();
-        solution.wSolution(3);
+        // solution.wSolution(3);
+        solution.dSolution();
     }
 
 }
+
 // this class is used to test case
 class Solution {
 
     // write by QuakeWang
+
     /**
      * @param T 表示需要判断的次数
      */
@@ -56,6 +59,28 @@ class Solution {
             }
             System.out.println();
             T--;
+        }
+    }
+
+    // write by DHY
+    public void dSolution() {
+        int T;
+        long[][] Arr = new long[10][3];
+        Scanner sc = new Scanner(System.in);
+        System.out.println("请输入一个10以内的整数（包含10）");
+        T = sc.nextInt();
+        System.out.println("请输入数据");
+        for (int i = 0; i < T; i++) {
+            for (int j = 0; j < 3; j++) {
+                Arr[i][j] = sc.nextLong();
+            }
+        }
+        for (int i = 0; i < T; i++) {
+            if (Arr[i][0] + Arr[i][1] > Arr[i][2]) {
+                System.out.println("Case #" + (i + 1) + ": true");
+            } else {
+                System.out.println("Case #" + (i + 1) + ": false");
+            }
         }
     }
 
