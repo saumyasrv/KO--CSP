@@ -46,16 +46,15 @@ class Solution {
         long c = 0;
         int tCase = 1;
         while (T != 0) {
-            a = scanner.nextInt();
-            b = scanner.nextInt();
-            c = scanner.nextInt();
+            a = scanner.nextLong();
+            b = scanner.nextLong();
+            c = scanner.nextLong();
             if (a + b > c) {
                 System.out.printf("Case #%d: true", tCase++);
-                System.out.println();
             } else {
                 System.out.printf("Case #%d: false", tCase++);
-                System.out.println();
             }
+            System.out.println();
             T--;
         }
     }
