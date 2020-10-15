@@ -30,4 +30,34 @@ public class B1011 {
     }
 
 }
+// this class is used to test case
+class Solution {
+
+    // write by QuakeWang
+    /**
+     * @param T 表示需要判断的次数
+     */
+    public void wSolution(int T) {
+        System.out.println("please input three number：");
+        Scanner scanner = new Scanner(System.in);
+        long a = 0;
+        long b = 0;
+        long c = 0;
+        int tCase = 1;
+        while (T != 0) {
+            a = scanner.nextInt();
+            b = scanner.nextInt();
+            c = scanner.nextInt();
+            if (a + b > c) {
+                System.out.printf("Case #%d: true", tCase++);
+                System.out.println();
+            } else {
+                System.out.printf("Case #%d: false", tCase++);
+                System.out.println();
+            }
+            T--;
+        }
+    }
+
+}
 
