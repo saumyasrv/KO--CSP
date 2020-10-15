@@ -26,7 +26,8 @@ import java.util.Scanner;
  */
 public class B1011 {
     public static void main(String[] args) {
-
+        Solution solution = new Solution();
+        solution.wSolution(3);
     }
 
 }
