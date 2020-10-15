@@ -34,12 +34,10 @@ public class B1011 {
         long b = 0;
         long c = 0;
 
-        for (int i = 0; i < T; i++) {
+        while (T != 0) {
             a = scanner.nextInt();
             b = scanner.nextInt();
             c = scanner.nextInt();
-        }
-        while (T != 0) {
             if (a + b > c) {
                 System.out.printf("Case #%d: false", tCase++);
                 System.out.println();
