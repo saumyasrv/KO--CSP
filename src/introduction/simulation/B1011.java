@@ -26,26 +26,8 @@ import java.util.Scanner;
  */
 public class B1011 {
     public static void main(String[] args) {
-        int T, tCase = 1;
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("请输入一个10以内的数字（包含10）：");
-        T = scanner.nextInt();
-        long a = 0;
-        long b = 0;
-        long c = 0;
 
-        while (T != 0) {
-            a = scanner.nextInt();
-            b = scanner.nextInt();
-            c = scanner.nextInt();
-            if (a + b > c) {
-                System.out.printf("Case #%d: false", tCase++);
-                System.out.println();
-            } else {
-                System.out.printf("Case #%d: true", tCase++);
-                System.out.println();
-            }
-            T--;
-        }
     }
+
 }
+
