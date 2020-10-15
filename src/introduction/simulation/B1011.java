@@ -27,7 +27,8 @@ import java.util.Scanner;
 public class B1011 {
     public static void main(String[] args) {
         Solution solution = new Solution();
-        solution.wSolution(3);
+        // solution.wSolution(3);
+        solution.dSolution();
     }
 
 }
@@ -66,10 +67,9 @@ class Solution {
     public void dSolution() {
         int T;
         long[][] Arr = new long[10][3];
-        Scanner C = new Scanner(System.in);
         Scanner sc = new Scanner(System.in);
         System.out.println("请输入一个10以内的整数（包含10）");
-        T = C.nextInt();
+        T = sc.nextInt();
         System.out.println("请输入数据");
         for (int i = 0; i < T; i++) {
             for (int j = 0; j < 3; j++) {
