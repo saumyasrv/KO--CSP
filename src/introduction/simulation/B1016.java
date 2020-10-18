@@ -35,18 +35,20 @@ class B1016Solution {
         b = scanner.nextLong();
         db = scanner.nextLong();
         long pa = 0, pb = 0;
-        while (a != 0) {
-            if (a % 10 == da) {
-                pa = pa * 10 + da;
+        while (a != 0) {// 对输入的正整数a进行处理
+            if (a % 10 == da) {// 判断是否含有da
+                pa = pa * 10 + da;// 若当前位为da，给pa增加一位da
             }
-            a = a / 10;
+            a = a / 10;// 处理下一位数
         }
+        // 对正整数b的处理同理
         while (b != 0) {
             if (b % 10 == db) {
                 pb = pb * 10 + db;
             }
             b = b / 10;
         }
+        // 得出答案
         System.out.println("pa + pb = " + (pa + pb));
     }
 }
