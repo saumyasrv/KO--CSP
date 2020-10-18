@@ -26,15 +26,15 @@ import java.util.Scanner;
  */
 public class B1011 {
     public static void main(String[] args) {
-        Solution solution = new Solution();
-        // solution.wSolution(3);
+        B1011Solutions solution = new B1011Solutions();
+        // B1011Solutions.wSolution(3);
         solution.dSolution();
     }
 
 }
 
 // this class is used to test case
-class Solution {
+class B1011Solutions {
 
     // write by QuakeWang
 
