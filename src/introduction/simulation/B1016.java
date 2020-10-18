@@ -23,6 +23,10 @@ import java.util.Scanner;
  * 0
  */
 public class B1016 {
+    public static void main(String[] args) {
+        B1016Solution b1016Solution = new B1016Solution();
+        b1016Solution.wSolution();
+    }
 }
 
 class B1016Solution {
