@@ -22,3 +22,11 @@ package introduction.simulation;
  */
 public class B1016 {
 }
+
+class B1016Solution {
+    // write by QuakeWang
+    public void wSolution() {
+
+    }
+}
+
