@@ -1,5 +1,7 @@
 package introduction.simulation;
 
+import java.util.Scanner;
+
 /**
  * B1016：部分A + B
  * 题目描述：
@@ -26,7 +28,26 @@ public class B1016 {
 class B1016Solution {
     // write by QuakeWang
     public void wSolution() {
-
+        long a, b, da, db;
+        Scanner scanner = new Scanner(System.in);
+        a = scanner.nextLong();
+        da = scanner.nextLong();
+        b = scanner.nextLong();
+        db = scanner.nextLong();
+        long pa = 0, pb = 0;
+        while (a != 0) {
+            if (a % 10 == da) {
+                pa = pa * 10 + da;
+            }
+            a = a / 10;
+        }
+        while (b != 0) {
+            if (b % 10 == db) {
+                pb = pb * 10 + db;
+            }
+            b = b / 10;
+        }
+        System.out.println("pa + pb = " + (pa + pb));
     }
 }
 
