@@ -1,5 +1,7 @@
 package introduction.simulation;
 
+import java.util.Scanner;
+
 /**
  * B1016：部分A + B
  * 题目描述：
@@ -21,12 +23,63 @@ package introduction.simulation;
  * 0
  */
 public class B1016 {
+    public static void main(String[] args) {
+
+    }
 }
 
 class B1016Solution {
     // write by QuakeWang
     public void wSolution() {
 
+    }
+    // write by DHY
+
+    public void dSolution() {
+        int x = 0;//记录空格数
+        int i = 0;//伪指针，用于遍历数组
+        int k = 0;//用于记录字符出现次数
+        int p1 = 0, p2 = 0;//用于记录A与B的最后位置
+        int Da = 0, Db = 0;//用于记录Da与Db(转化为数字）
+        int pa = 0, pb = 0;//用于记录pa与pb
+        int sum = 0;//PA+PB的和
+        char fx = '0', sx = '0';//用于记录Da
+        Scanner sc = new Scanner(System.in);
+        String str = new String();
+        str = sc.nextLine();
+        char[] ch = str.toCharArray();
+        System.out.println(ch);
+        while (true) {
+            if (ch[i] == ' ') {
+                x++;
+                if (x == 1) {
+                    p1 = i;
+                    fx = ch[i + 1];
+                    Da = (int) fx - 48;
+                    //System.out.println(Da);//
+                } else if (x == 3) {
+                    p2 = i;
+                    sx = ch[i + 1];
+                    Db = (int) sx - 48;
+                    //System.out.println(sx);//
+                }
+            }
+            i++;
+            if (x >= 4) {
+                break;
+            }
+        }
+        for (int j = 0; j < p1; j++) {
+            if (ch[j] == fx) {
+                pa = pa * 10 + Da;
+            }
+        }
+        for (int l = (p1 + 3); l < p2; l++) {
+            if (ch[l] == sx) {
+                pb = pb * 10 + Db;
+            }
+        }
+        System.out.println(pa + pb);
     }
 }
 
