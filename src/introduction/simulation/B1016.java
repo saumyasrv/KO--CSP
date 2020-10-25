@@ -24,7 +24,7 @@ import java.util.Scanner;
  */
 public class B1016 {
     public static void main(String[] args) {
-
+        
     }
 }
 
@@ -33,8 +33,8 @@ class B1016Solution {
     public void wSolution() {
 
     }
-    // write by DHY
 
+    // write by DHY
     public void dSolution() {
         int x = 0;//记录空格数
         int i = 0;//伪指针，用于遍历数组
@@ -48,7 +48,7 @@ class B1016Solution {
         String str = new String();
         str = sc.nextLine();
         char[] ch = str.toCharArray();
-        System.out.println(ch);
+        //System.out.println(ch);
         while (true) {
             if (ch[i] == ' ') {
                 x++;
@@ -81,5 +81,6 @@ class B1016Solution {
         }
         System.out.println(pa + pb);
     }
+
 }
 

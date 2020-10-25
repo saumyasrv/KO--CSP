@@ -42,7 +42,7 @@ class B1011Solutions {
      * @param T 表示需要判断的次数
      */
     public void wSolution(int T) {
-        System.out.println("please input three number：");
+        System.out.println("please input three numbers：");
         Scanner scanner = new Scanner(System.in);
         long a = 0;
         long b = 0;
