@@ -84,12 +84,11 @@ class B1016Solution {
                     sx = ch[i + 1];
                     Db = (int) sx - 48;
                     //System.out.println(sx);//
+                    break;
                 }
             }
             i++;
-            if (x >= 4) {
-                break;
-            }
+
         }
         for (int j = 0; j < p1; j++) {
             if (ch[j] == fx) {
