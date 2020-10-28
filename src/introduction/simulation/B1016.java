@@ -1,5 +1,7 @@
 package introduction.simulation;
 
+import java.util.Scanner;
+
 /**
  * B1016：部分A + B
  * 题目描述：
