@@ -70,7 +70,6 @@ class B1016Solution {
         String str = new String();
         str = sc.nextLine();
         char[] ch = str.toCharArray();
-        System.out.println(ch);
         while (true) {
             if (ch[i] == ' ') {
                 x++;
@@ -78,12 +77,10 @@ class B1016Solution {
                     p1 = i;
                     fx = ch[i + 1];
                     Da = (int) fx - 48;
-                    //System.out.println(Da);//
                 } else if (x == 3) {
                     p2 = i;
                     sx = ch[i + 1];
                     Db = (int) sx - 48;
-                    //System.out.println(sx);//
                     break;
                 }
             }
