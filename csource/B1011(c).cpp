@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main() 
 {
-    int T, tcase = 1;
+    int T, tCase = 1;
     scanf("%d", &T);// 输入数组数据数
     while (T--)// 循环T次
     {
@@ -9,10 +9,10 @@ int main()
         scanf("%lld%lld%lld",&a, &b, &c);
         if (a + b > c)
         {
-            printf("Case #%d: true\n", tcase++);
+            printf("Case #%d: true\n", tCase++);
         } else
         {
-            printf("Case #%d: fasle\n", tcase++);
+            printf("Case #%d: false\n", tCase++);
         }
         return 0;
     }
