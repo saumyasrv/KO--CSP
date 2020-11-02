@@ -25,6 +25,10 @@ import java.util.Scanner;
  */
 
 public class B1008 {
+    public static void main(String[] args) {
+        B1008Solutions b1008Solutions = new B1008Solutions();
+        b1008Solutions.wSolution();
+    }
 }
 
 // this class is used to solve the problem
