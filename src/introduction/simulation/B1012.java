@@ -3,6 +3,10 @@ package introduction.simulation;
 import java.util.Scanner;
 
 public class B1012 {
+    public static void main(String[] args) {
+        B1012Solutions b1012Solutions = new B1012Solutions();
+        b1012Solutions.wSolution();
+    }
 }
 
 // this class is used to solve the problem
