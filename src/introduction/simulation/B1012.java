@@ -51,7 +51,7 @@ class B1012Solutions {
         else System.out.printf("%d ", count[2]);
         if (count[3] == 0) System.out.print("N ");
         else System.out.printf("%.1f ", (double) ans[3] / count[3]);
-        if (count[4] == 0) System.out.print("N");
+        if (count[4] == 0) System.out.print("N");// 最后一个不能有空格！！！
         else System.out.printf("%d", ans[4]);
     }
 }
