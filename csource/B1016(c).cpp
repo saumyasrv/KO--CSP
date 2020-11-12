@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {   
-  long a , b , da , db;
+  long long a , b , da , db;
   scanf("%ld %ld %ld %ld" , &a , &da , &b , &db);
   long long pa = 0 , pb = 0;
   while(a != 0)
@@ -20,6 +20,6 @@ int main()
      }
      b = b / 10;
   }
-  printf(" pa + pb = %lld\n",(pa+pb));
+  printf("%lld\n",(pa+pb));
   return 0;
 }
