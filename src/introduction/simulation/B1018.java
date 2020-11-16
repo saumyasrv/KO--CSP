@@ -63,10 +63,10 @@ class B1018Solutions {
         int id1 = 0, id2 = 0;
         for (int i = 0; i < 3; i++) {
             if (hand_A[i] > hand_A[id1]) {
-                id1 = 1;
+                id1 = i;
             }
             if (hand_B[i] > hand_B[id2]) {
-                id2 = 1;
+                id2 = i;
             }
         }
         System.out.printf("%c %c\n", map[id1], map[id2]);
