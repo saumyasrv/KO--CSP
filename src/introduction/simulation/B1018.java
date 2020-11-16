@@ -57,9 +57,11 @@ class B1018Solutions {
             }
         }
 
+        // 分别输出甲、乙 胜、平、负的次数
         System.out.printf("%d %d %d\n", times_A[0], times_A[1], times_A[2]);
         System.out.printf("%d %d %d\n", times_B[0], times_B[1], times_B[2]);
 
+        // 记录甲、乙获胜次数最多的手势
         int id1 = 0, id2 = 0;
         for (int i = 0; i < 3; i++) {
             if (hand_A[i] > hand_A[id1]) {
