@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int step = 0 , n;
+    int step = 0 , n;// step表示需要求的步长，n表述输入的数（n <= 1000）
     scanf("%d" , &n);   //输入一个小于等于1000的正整数n
     while (n != 1) 
     {
