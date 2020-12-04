@@ -8,6 +8,8 @@
 ### 1、题解列表
 [1.B1001 害死人不偿命的(3 * n + 1)猜想](https://os-edu.github.io/posts/b1001/)
 
+[2.B1046 划拳](https://os-edu.github.io/b1046/)
+
 ---
 
 ### 2、参与指南
