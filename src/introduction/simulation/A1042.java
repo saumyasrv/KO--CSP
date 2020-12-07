@@ -3,6 +3,10 @@ package introduction.simulation;
 import java.util.Scanner;
 
 public class A1042 {
+    public static void main(String[] args) {
+        A1042Solutions a1042Solutions = new A1042Solutions();
+        a1042Solutions.wSolution();
+    }
 }
 
 class A1042Solutions {
