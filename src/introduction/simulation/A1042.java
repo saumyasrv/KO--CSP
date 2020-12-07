@@ -36,7 +36,7 @@ class A1042Solutions {
             }
         }
 
-        for (int i = 1; i < N; i++) {
+        for (int i = 1; i <= N; i++) {
             if (i != 1) {
                 System.out.print(" ");// 控制输出格式
             }
