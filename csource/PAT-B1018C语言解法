@@ -1,13 +1,14 @@
 #include <stdio.h>
-int change(char c) {
-    if (c == 'B') return 0;
-    if (c == 'C') return 1;
-    if (c == 'J') return 2;    
+int change(char c) //创建一个函数，将字符转换成数字
+{
+    if (c == 'B') return 0;//出布的话，就返回数字0
+    if (c == 'C') return 1;//出石头的话，就返回数字1
+    if (c == 'J') return 2;//出剪刀的话，就返回数字2
 }
 
 int main()
 {
-    char map[3] = {'B', 'C', 'J'};
+    char map[3] = {'B', 'C', 'J'};//创建一个字符数组存储石头,剪刀,布
     int n;
     scanf("%d", &n);
     int times_A[3] = {0}, times_B[3] = {0};
