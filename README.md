@@ -10,6 +10,10 @@
 
 [2.B1046 划拳](https://os-edu.github.io/b1046/)
 
+[3.PAT-B1008.数组元素循环右移问题](https://os-edu.github.io/pat_b1008/)
+
+[4.PAT-B1011 :A + B 和 C](https://os-edu.github.io/pat_b1011/)
+
 ---
 
 ### 2、参与指南
