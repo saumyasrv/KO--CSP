@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int count[5] = {0,};
+    int count[5] = {0};
     int sum[5];
     int N, num;
     scanf("%d" , &N); //请输入要输入数的个数
