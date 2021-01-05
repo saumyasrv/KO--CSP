@@ -23,7 +23,7 @@
 
 #### ①增加题目
 
-如果您发现有较好的题目，或者是比较在准备这类的考试时所遇见的都可以提交该题目的描述文件至[题目描述](https://github.com/Practice-Dream/KO--CSP/tree/main/%E9%A2%98%E7%9B%AE%E6%8F%8F%E8%BF%B0) 这个目录，建议为markdown文件。
+如果您发现有较好的题目，或者是比较在准备这类的考试时所遇见的都可以提交该题目的描述文件至[题目描述](https://github.com/OS-EDU/KO--CSP/tree/main/%E9%A2%98%E7%9B%AE%E6%8F%8F%E8%BF%B0) 这个目录，建议为markdown文件。
 
 **格式要求如下：**
 
@@ -52,7 +52,7 @@
 
 #### ②题目解法
 
-##### [a. 认领 issue](https://github.com/Practice-Dream/KO--CSP/issues)
+##### [a. 认领 issue](https://github.com/OS-EDU/KO--CSP/issues)
 
 所有的题目都会建立一个对应的issue，可以选择在 [Issue 列表](https://github.com/Practice-Dream/KO--CSP/issues) 中挑选任务，然后在该 `issue` 下回复一下自己简单的解题思路，表明你将认领该 issue，如果发现issue已被认领或者closed，但是还有不同的解法，可以自己new issue，issue的标题要表明对应的题目编号。
 
@@ -70,6 +70,6 @@
 
 #### ③题目解析
 
-题目的解析会以[博客](https://practice-dream.github.io/)的形式呈现出来，所以如果之前你已经pr了题目的解法，那么你可以选择在博客中添加一下具体的解题思路以及代码分析，这样可以更有利于读者理解你的解法。
+题目的解析会以[博客](https://os-edu.github.io/)的形式呈现出来，所以如果之前你已经pr了题目的解法，那么你可以选择在博客中添加一下具体的解题思路以及代码分析，这样可以更有利于读者理解你的解法。
 
 博客是基于[hugo](https://github.com/gohugoio/hugo) 搭建的，可以对markdown文件直接渲染成静态网页。如果你对此还不了解的话，建议先了解一下具体操作，再上手实践。
