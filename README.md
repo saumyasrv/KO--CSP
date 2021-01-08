@@ -14,7 +14,8 @@
 
 [4.PAT-B1011 :A + B 和 C](https://os-edu.github.io/pat_b1011/)
 
-[5、PAT_B1012.数字分类](https://os-edu.github.io/pat_b1012/)
+[5.PAT-B1012.数字分类](https://os-edu.github.io/pat_b1012/)
+
 ---
 
 ### 2、参与指南
