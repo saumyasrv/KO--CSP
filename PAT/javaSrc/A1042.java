@@ -21,7 +21,7 @@ class A1042Solutions {
         Scanner scanner = new Scanner(System.in);
         k = scanner.nextInt();
 
-        for (int i = 1; i < N; i++) {
+        for (int i = 1; i <= N; i++) {
             start[i] = i;// 初始化牌的编号
         }
         for (int i = 1; i <= N; i++) {

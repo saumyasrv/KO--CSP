@@ -1,11 +1,20 @@
 # KO--CSP
 ### 0、前言
 
-本项目也是创立[OS-EDU](https://github.com/Practice-Dream) 的起点，主要用于更新有关大学生本科阶段所常见的考试题目讲解，例如PAT、CCF的CSP认证之类的以及计算机专业研究生复试上机题目之类的。通常这类题目的平均难度要低于leetcode、牛客网等出现的题目，所以对于新手朋友们比较友好。也算是可以从零开始，从而可以克服面对刷题的心理阴影吧。
+本项目也是创立[OS-EDU](https://github.com/OS-EDU) 的起点，主要用于更新有关大学生本科阶段所常见的考试题目讲解，例如PAT、CCF的CSP认证之类的以及计算机专业研究生复试上机题目之类的。通常这类题目的平均难度要低于leetcode、牛客网等出现的题目，所以对于新手朋友们比较友好。也算是可以从零开始，从而可以克服面对刷题的心理阴影吧。
 
 ---
 
 ### 1、题解列表
+[1.B1001 害死人不偿命的(3 * n + 1)猜想](https://os-edu.github.io/b1001/)
+
+[2.B1046 划拳](https://os-edu.github.io/b1046/)
+
+[3.PAT-B1008.数组元素循环右移问题](https://os-edu.github.io/pat_b1008/)
+
+[4.PAT-B1011 :A + B 和 C](https://os-edu.github.io/pat_b1011/)
+
+[5.PAT-B1012.数字分类](https://os-edu.github.io/pat_b1012/)
 
 ---
 
@@ -15,7 +24,7 @@
 
 #### ①增加题目
 
-如果您发现有较好的题目，或者是比较在准备这类的考试时所遇见的都可以提交该题目的描述文件至[题目描述](https://github.com/Practice-Dream/KO--CSP/tree/main/%E9%A2%98%E7%9B%AE%E6%8F%8F%E8%BF%B0) 这个目录，建议为markdown文件。
+如果您发现有较好的题目，或者是比较在准备这类的考试时所遇见的都可以提交该题目的描述文件至[题目描述](https://github.com/OS-EDU/KO--CSP/tree/main/%E9%A2%98%E7%9B%AE%E6%8F%8F%E8%BF%B0) 这个目录，建议为markdown文件。
 
 **格式要求如下：**
 
@@ -44,7 +53,7 @@
 
 #### ②题目解法
 
-##### [a. 认领 issue](https://github.com/Practice-Dream/KO--CSP/issues)
+##### [a. 认领 issue](https://github.com/OS-EDU/KO--CSP/issues)
 
 所有的题目都会建立一个对应的issue，可以选择在 [Issue 列表](https://github.com/Practice-Dream/KO--CSP/issues) 中挑选任务，然后在该 `issue` 下回复一下自己简单的解题思路，表明你将认领该 issue，如果发现issue已被认领或者closed，但是还有不同的解法，可以自己new issue，issue的标题要表明对应的题目编号。
 
@@ -62,6 +71,6 @@
 
 #### ③题目解析
 
-题目的解析会以[博客](https://practice-dream.github.io/)的形式呈现出来，所以如果之前你已经pr了题目的解法，那么你可以选择在博客中添加一下具体的解题思路以及代码分析，这样可以更有利于读者理解你的解法。
+题目的解析会以[博客](https://os-edu.github.io/)的形式呈现出来，所以如果之前你已经pr了题目的解法，那么你可以选择在博客中添加一下具体的解题思路以及代码分析，这样可以更有利于读者理解你的解法。
 
 博客是基于[hugo](https://github.com/gohugoio/hugo) 搭建的，可以对markdown文件直接渲染成静态网页。如果你对此还不了解的话，建议先了解一下具体操作，再上手实践。
