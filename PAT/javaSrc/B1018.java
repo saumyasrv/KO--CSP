@@ -1,5 +1,3 @@
-package introduction.simulation;
-
 import java.util.Scanner;
 
 
