@@ -6,15 +6,27 @@
 ---
 
 ### 1、题解列表
-[1.B1001 害死人不偿命的(3 * n + 1)猜想](https://os-edu.github.io/b1001/)
+[1.B1001 害死人不偿命的(3 * n + 1)猜想](https://os-edu.github.io/posts/b1001/)
 
-[2.B1046 划拳](https://os-edu.github.io/b1046/)
+[2.B1046 划拳](https://os-edu.github.io/posts/b1046/)
 
-[3.PAT-B1008.数组元素循环右移问题](https://os-edu.github.io/pat_b1008/)
+[3.PAT-B1008.数组元素循环右移问题](https://os-edu.github.io/posts/pat_b1008/)
 
-[4.PAT-B1011 :A + B 和 C](https://os-edu.github.io/pat_b1011/)
+[4.PAT-B1011 :A + B 和 C](https://os-edu.github.io/posts/pat_b1011/)
 
-[5.PAT-B1012.数字分类](https://os-edu.github.io/pat_b1012/)
+[5.PAT-B1012.数字分类](https://os-edu.github.io/posts/pat_b1012/)
+
+[6.PAT-B1004.成绩排名](https://os-edu.github.io/posts/pat-b1004/)
+
+[7.PAT-B1041.考试座位号](https://os-edu.github.io/posts/pat-b1041/)
+
+[8.PAT - B1010 一元多项式求导](https://os-edu.github.io/posts/pat-b1010/)
+
+[9.PAT-A1042.Shuffling Machine](https://os-edu.github.io/posts/pat-a1042/)
+
+[10.PAT-B1018.锤子剪刀布](https://os-edu.github.io/posts/pat_b1018/)
+
+[11.PAT_B1016.部分 A + B](https://os-edu.github.io/posts/pat-b1016/)
 
 ---
 
