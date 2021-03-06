@@ -1,6 +1,6 @@
 ---
 name: Add Questions
-about: Template of issue
+about: Template of add questions
 title: "[Add Question] 题目名称"
 labels: status/pending
 assignees: 
