@@ -1,5 +1,5 @@
 ---
-name: ISSUE
+name: Solution
 about: Template of solution
 title: "[Solution] 题目名称"
 labels: status/pending
