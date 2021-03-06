@@ -1,5 +1,5 @@
 ---
-name: ISSUE
+name: Add Questions
 about: Template of issue
 title: "[Add Question] 题目名称"
 labels: status/pending
