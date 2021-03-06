@@ -1,7 +1,7 @@
 ---
 name: ISSUE
 about: Template of issue
-title: "添加题目描述文件"
+title: "[Add Question] 题目名称"
 labels: status/pending
 assignees: 
 
