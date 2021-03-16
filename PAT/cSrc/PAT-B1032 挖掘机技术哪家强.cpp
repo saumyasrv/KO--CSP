@@ -12,8 +12,7 @@ int main()
     for (int i = 0; i < N; i++)
     {
         cin >> num >> score;
-        arr[num] +=
-            score;
+        arr[num] += score;
     }
 
     // 初始化为最大值，以及临时变量 temp
