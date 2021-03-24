@@ -3,28 +3,27 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
+        //定义输入的三个值 A B D
         int A = in.nextInt();
-        int B = in.nextInt(); //定义输入的三个值 A B D
+        int B = in.nextInt(); 
         int D = in.nextInt();
-        int sum = A + B; // 定义 A + B 的和 sum
+        // 定义 A + B 的和 sum
+        int sum = A + B; 
         int i = 0;
-        int[] re = new int[100]; // 定义一个数组来存储余数
+        // 定义一个数组来存储余数
+        int[] re = new int[100]; 
         while (sum > 0){
-            int m = sum % D; // 用 A + B 的和对 D 进行取余
-            re[i] = m; // 把余数 m 赋值给数组存储
-            sum = sum / D; // 把个位数删去
+            // 用 A + B 的和对 D 进行取余
+            int m = sum % D;
+            // 把余数 m 赋值给数组存储
+            re[i] = m;
+            // 把个位数删去
+            sum = sum / D; 
             i++;
         }
         for (int j = i-1; j >= 0; j--){
-            System.out.print(re[j]); // 倒序输出数组中的值
+            // 倒序输出数组中的值
+            System.out.print(re[j]); 
         }
-        // 第二种 Java 方法  直接调用进制转换方法（不推荐）
-     /*Scanner in = new Scanner(System.in);
-        int A = in.nextInt();
-        int B = in.nextInt();
-        int D = in.nextInt();
-        int sum = A + B;
-        String s = Integer.toString(sum, D); // 直接调用封装好的方法
-        System.out.println(s);*/
     }
 }
