@@ -23,7 +23,9 @@ int main()
 			tmp="";
 		}
 	}
+    // 将最后的的字符串装入动态数组
 	v.push_back(tmp);
+    // 倒序输出动态数组	
 	for(int i=v.size()-1;i>=0;i--)
 	{
 		if(i!=0)
