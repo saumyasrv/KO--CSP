@@ -6,13 +6,13 @@
 ---
 
 ### 1、题解列表
-[1.B1001 害死人不偿命的(3 * n + 1)猜想](https://os-edu.github.io/posts/b1001/)
+[1.PAT-B1001.害死人不偿命的(3*n +1)猜想](https://os-edu.github.io/posts/b1001/)
 
-[2.B1046 划拳](https://os-edu.github.io/posts/b1046/)
+[2.PAT-B1046.划拳](https://os-edu.github.io/posts/b1046/)
 
 [3.PAT-B1008.数组元素循环右移问题](https://os-edu.github.io/posts/pat_b1008/)
 
-[4.PAT-B1011 :A + B 和 C](https://os-edu.github.io/posts/pat_b1011/)
+[4.PAT-B1011.A+B和C](https://os-edu.github.io/posts/pat_b1011/)
 
 [5.PAT-B1012.数字分类](https://os-edu.github.io/posts/pat_b1012/)
 
@@ -20,13 +20,26 @@
 
 [7.PAT-B1041.考试座位号](https://os-edu.github.io/posts/pat-b1041/)
 
-[8.PAT - B1010 一元多项式求导](https://os-edu.github.io/posts/pat-b1010/)
+[8.PAT-B1010.一元多项式求导](https://os-edu.github.io/posts/pat-b1010/)
 
-[9.PAT-A1042.Shuffling Machine](https://os-edu.github.io/posts/pat-a1042/)
+[9.PAT-A1042.ShufflingMachine](https://os-edu.github.io/posts/pat-a1042/)
 
 [10.PAT-B1018.锤子剪刀布](https://os-edu.github.io/posts/pat_b1018/)
 
-[11.PAT_B1016.部分 A + B](https://os-edu.github.io/posts/pat-b1016/)
+[11.PAT-B1016.部分A+B](https://os-edu.github.io/posts/pat-b1016/)
+
+[12.PAT-B1028.人口普查](https://os-edu.github.io/posts/pat-b1028/)
+
+[13.PAT-B1032.挖掘机技术哪家强](https://os-edu.github.io/posts/pat-b1032.%E6%8C%96%E6%8E%98%E6%9C%BA%E6%8A%80%E6%9C%AF%E5%93%AA%E5%AE%B6%E5%BC%BA/)
+
+[14.PAT-B1022.D进制的A+B](https://os-edu.github.io/posts/pat-b1022.d-%E8%BF%9B%E5%88%B6%E7%9A%84-a-+-b/)
+
+[15.PAT-B1030.完美数列](https://os-edu.github.io/posts/pat-a1030.%E5%AE%8C%E7%BE%8E%E6%95%B0%E5%88%97/)
+
+[16.PAT-B1036.跟奥巴马一起编程](https://os-edu.github.io/posts/pat-b1036.%E8%B7%9F%E5%A5%A5%E5%B7%B4%E9%A9%AC%E4%B8%80%E8%B5%B7%E7%BC%96%E7%A8%8B/)
+
+[17.PAT-B1009.说反话](https://os-edu.github.io/posts/pat-b1009.%E8%AF%B4%E5%8F%8D%E8%AF%9D/)
+
 
 ---
 
