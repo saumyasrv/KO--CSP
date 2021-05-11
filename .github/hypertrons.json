@@ -1,0 +1,162 @@
+{
+  "label_setup": {
+    "version": 1,
+    "labels": [ 
+      {
+        "__merge__": true
+      },
+      {
+        "name": "add questions",
+        "description": "add some questions",
+        "color": "#006b75"
+      },
+      {
+        "name": "bug",
+        "description": "Something isn't working",
+        "color": "#d73a4a"
+      },
+      {
+        "name": "C/C++",
+        "description": "Writing programs in C or C++",
+        "color": "#E08F69"
+      },
+      {
+        "name": "documentation",
+        "description": "Improvements or additions to documentation",
+        "color": "#0075ca"
+      },
+      {
+        "name": "duplicate",
+        "description": "This issue or pull request already exists",
+        "color": "#cfd3d7"
+      },
+      {
+        "name": "enhancement",
+        "description": "New feature or request",
+        "color": "#a2eeef"
+      },
+      {
+        "name": "good first issue",
+        "description": "Good for newcomers",
+        "color": "#7057ff"
+      },
+      {
+        "name": "Improvement",
+        "description": "improve the repo",
+        "color": "#008672"
+      },
+      {
+        "name": "help wanted",
+        "description": "Extra attention is needed",
+        "color": "#25574E"
+      },
+      {
+        "name": "invalid",
+        "description": "This doesn't seem right",
+        "color": "#e4e669"
+      },
+      {
+        "name": "Java",
+        "description": "Writing programs in Java",
+        "color": "#A0FDC8"
+      },
+      {
+        "name": "PAT-A",
+        "description": "Question from PAT-A",
+        "color": "#E6B5C8"
+      },
+      {
+        "name": "PAT-B",
+        "description": "Question from PAT-B",
+        "color": "#F5D9DE"
+      },
+      {
+        "name": "Python",
+        "description": "Writing programs in Python",
+        "color": "#E7ABA4"
+      },
+      {
+        "name": "question",
+        "description": "Further information is requested",
+        "color": "#d876e3"
+      },
+      {
+        "name": "solution",
+        "description": "a way to solve the problem",
+        "color": "#efc499"
+      },
+      {
+        "name": "wontfix",
+        "description": "This will not be worked on",
+        "color": "#ffffff"
+      }
+    ]
+  },
+  "weekly_report": {
+    "version": 1,
+    "generateTime": "0 0 12 * * 1"
+  },
+  "role": {
+    "version": 1,
+    "roles": [
+      {
+        "name": "committer",
+        "description": "Committer of the project",
+        "users": [ "QuakeWang", "freedom3219", "jaydenhd" ],
+        "commands": [ "/approve" ]
+      },
+      {
+        "name": "replier",
+        "description": "Replier is responsible for reply issues in time",
+        "users": [ "QuakeWang", "freedom3219", "jaydenhd" ],
+        "commands": []
+      },
+      {
+        "name": "notauthor",
+        "description": "Not author of the issue or pull",
+        "users": [],
+        "commands": [ "/approve" ]
+      },
+      {
+        "name": "anyone",
+        "description": "Anyone",
+        "users": [],
+        "commands": [ "/self-assign" ]
+      }
+    ]
+  },
+  "command": {
+    "version": 1,
+    "commands": [
+      {
+        "name": "/approve",
+        "scopes": [ "review", "review_comment", "pull_comment" ]
+      }
+    ]
+  },
+  "approve": {
+    "version": 1
+  },
+  "auto_merge": {
+    "version": 1,
+    "sched": "0 */5 * * * *"
+  },
+  "issue_reminder": {
+    "version": 1
+  },
+  "auto_label": {
+    "version": 1
+  },
+  "self_assign": {
+    "version": 1
+  },
+  "auto_update_report": {
+    "version": 1
+  },
+  "auto_update_contribution": {
+    "version": 1
+  },
+  "pr_uml_renderer": {
+    "version": 1
+  }
+}
