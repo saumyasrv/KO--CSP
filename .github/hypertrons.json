@@ -150,9 +150,6 @@
   "self_assign": {
     "version": 1
   },
-  "sql_verified": {
-    "version": 1
-  },
   "auto_update_report": {
     "version": 1
   },
@@ -161,23 +158,5 @@
   },
   "pr_uml_renderer": {
     "version": 1
-  },
-  "pr_file_label": {
-    "version": 1,
-    "rules": [
-      {
-        "files": [
-          "docs/.+"
-        ],
-        "label": "pull/website"
-      },
-      {
-        "files": [
-          "%.github/hypertrons%.json",
-          "%.github/hypertrons%-components/.+"
-        ],
-        "label": "pull/hypertrons"
-      }
-    ]
   }
 }
