@@ -158,5 +158,16 @@
   },
   "pr_uml_renderer": {
     "version": 1
+  },
+   "pr_file_label": {
+    "version": 1,
+    "rules": [
+      {
+        "files": [
+          "%.github/hypertrons%.json"
+        ],
+        "label": "pull/hypertrons"
+      }
+    ]
   }
 }
