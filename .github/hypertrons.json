@@ -8,22 +8,38 @@
       {
         "name": "add questions",
         "description": "add some questions",
-        "color": "#006b75"
+        "color": "#006b75",
+        "keywords": [
+          "add questions"
+        ]
       },
       {
         "name": "bug",
         "description": "Something isn't working",
-        "color": "#d73a4a"
+        "color": "#d73a4a",
+        "keywords": [
+          "bug",
+          "wrong"
+        ]
       },
       {
         "name": "C/C++",
         "description": "Writing programs in C or C++",
-        "color": "#E08F69"
+        "color": "#E08F69",
+        "keywords": [
+          "c/c++",
+          "c",
+          "c++"
+        ]
       },
       {
         "name": "documentation",
         "description": "Improvements or additions to documentation",
-        "color": "#0075ca"
+        "color": "#0075ca",
+        "keywords": [
+          "doc",
+          "documentation"
+        ]
       },
       {
         "name": "duplicate",
@@ -33,7 +49,11 @@
       {
         "name": "enhancement",
         "description": "New feature or request",
-        "color": "#a2eeef"
+        "color": "#a2eeef",
+        "keywords": [
+          "enhancement",
+          "improvement"
+        ]
       },
       {
         "name": "good first issue",
@@ -43,7 +63,11 @@
       {
         "name": "Improvement",
         "description": "improve the repo",
-        "color": "#008672"
+        "color": "#008672",
+        "keywords": [
+          "enhancement",
+          "improvement"
+        ]
       },
       {
         "name": "help wanted",
@@ -58,22 +82,36 @@
       {
         "name": "Java",
         "description": "Writing programs in Java",
-        "color": "#A0FDC8"
+        "color": "#A0FDC8",
+        "keywords": [
+          "java"
+        ]
       },
       {
         "name": "PAT-A",
         "description": "Question from PAT-A",
-        "color": "#E6B5C8"
+        "color": "#E6B5C8",
+        "keywords": [
+          "pat",
+          "pat-a"
+        ]
       },
       {
         "name": "PAT-B",
         "description": "Question from PAT-B",
-        "color": "#F5D9DE"
+        "color": "#F5D9DE",
+        "keywords": [
+          "pat",
+          "pat-b"
+        ]
       },
       {
         "name": "Python",
         "description": "Writing programs in Python",
-        "color": "#E7ABA4"
+        "color": "#E7ABA4",
+        "keywords": [
+          "python"
+        ]
       },
       {
         "name": "question",
@@ -83,7 +121,11 @@
       {
         "name": "solution",
         "description": "a way to solve the problem",
-        "color": "#efc499"
+        "color": "#efc499",
+        "keywords": [
+          "solution",
+          "solutions"
+        ]
       },
       {
         "name": "wontfix",
