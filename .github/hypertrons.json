@@ -149,25 +149,5 @@
   },
   "self_assign": {
     "version": 1
-  },
-  "auto_update_report": {
-    "version": 1
-  },
-  "auto_update_contribution": {
-    "version": 1
-  },
-  "pr_uml_renderer": {
-    "version": 1
-  },
-   "pr_file_label": {
-    "version": 1,
-    "rules": [
-      {
-        "files": [
-          "%.github/hypertrons%.json"
-        ],
-        "label": "pull/hypertrons"
-      }
-    ]
-  }
+  
 }
