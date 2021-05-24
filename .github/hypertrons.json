@@ -6,7 +6,7 @@
         "__merge__": true
       },
       {
-        "name": "add question",
+        "name": "add questions",
         "description": "add some questions",
         "color": "#006b75",
         "keywords": [
