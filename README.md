@@ -8,11 +8,11 @@
 ### 1、题解列表
 #### ①PAT-A题解：
 
-[PAT-A题解列表](https://github.com/OS-EDU/KO--CSP/blob/532973973ebea1a65f41ea8391d5d1760af901a7/PAT/%E9%A2%98%E8%A7%A3%E5%88%97%E8%A1%A8/PAT-A.%E9%A2%98%E8%A7%A3%E5%88%97%E8%A1%A8.md)
+[PAT-A题解列表](https://github.com/OS-EDU/KO--CSP/blob/main/PAT/%E9%A2%98%E8%A7%A3%E5%88%97%E8%A1%A8/PAT-A.%E9%A2%98%E8%A7%A3%E5%88%97%E8%A1%A8.md)
 
 #### ②PAT-B题解：
 
-[PAT-B题解列表](https://github.com/OS-EDU/KO--CSP/blob/532973973ebea1a65f41ea8391d5d1760af901a7/PAT/%E9%A2%98%E8%A7%A3%E5%88%97%E8%A1%A8/PAT-B.%E9%A2%98%E8%A7%A3%E5%88%97%E8%A1%A8.md)
+[PAT-B题解列表](https://github.com/OS-EDU/KO--CSP/blob/main/PAT/%E9%A2%98%E8%A7%A3%E5%88%97%E8%A1%A8/PAT-B.%E9%A2%98%E8%A7%A3%E5%88%97%E8%A1%A8.md)
 
 
 ---
@@ -38,10 +38,10 @@
 ### 输出格式：
 （题目要求的输出格式）
 ### 输入样例：
-​```
+```
 （输入样例）
 ### 输出样例：
-​```
+```
 （输出样例）
 ```
 
@@ -82,7 +82,7 @@
 
 #### ①微信公众号：OS EDU
 
-![公众号二维码]()
+![公众号二维码](https://github.com/OS-EDU/KO--CSP/blob/main/img/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg?raw=true)
 
 (扫码关注)
 
