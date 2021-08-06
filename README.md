@@ -1,7 +1,8 @@
+[![CodeFactor](https://www.codefactor.io/repository/github/os-edu/ko--csp/badge)](https://www.codefactor.io/repository/github/os-edu/ko--csp)
 # KO--CSP
 ### 0、前言
 
-本项目也是创立[OS-EDU](https://github.com/OS-EDU) 的起点，主要用于更新有关大学生本科阶段所常见的考试题目讲解，例如PAT、CCF的CSP认证之类的以及计算机专业研究生复试上机题目之类的。通常这类题目的平均难度要低于leetcode、牛客网等出现的题目，所以对于新手朋友们比较友好。也算是可以从零开始，从而可以克服面对刷题的心理阴影吧。
+本项目也是创立[OS-EDU](https://github.com/OS-EDU) 的起点，主要用于更新有关大学生本科阶段所常见的考试题目讲解，例如 PAT、CCF 的 CSP 认证之类的以及计算机专业研究生复试上机题目之类的。通常这类题目的平均难度要低于leetcode、牛客网等出现的题目，所以对于新手朋友们比较友好。也算是可以从零开始，从而可以克服面对刷题的心理阴影吧。
 
 ---
 
